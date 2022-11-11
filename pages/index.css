@@ -40,7 +40,7 @@ div {
 
 
 
-
+/* HEADER */
 
 .header {
   margin: 0 auto;
@@ -56,11 +56,6 @@ div {
   }
 }
 
-
-
-
-
-
 .header__logo {
   width: 176px;
   height: 52px;
@@ -73,10 +68,6 @@ div {
   }
 }
 
-
-
-
-
 .header__lang-links {
   margin: 0;
   padding: 0;
@@ -87,9 +78,6 @@ div {
   align-items: flex-end;
   gap: 18px;
 }
-
-
-
 
 .header__lang-link {
   margin: 0;
@@ -106,11 +94,6 @@ div {
   }
 }
 
-
-
-
-
-
 .header__lang-link_unselected {
   text-decoration: none;
 }
@@ -119,7 +102,7 @@ div {
   opacity: .8;
 }
 
-
+/* BANNER LEAD*/
 
 .lead {
   margin: 0 auto;
@@ -139,10 +122,6 @@ div {
   }
 }
 
-
-
-
-
 .lead__title {
   margin: 0 auto;
   font-size: 96px;
@@ -160,10 +139,6 @@ div {
   }
 }
 
-
-
-
-
 .lead__subtitle {
   margin: 0 auto;
   padding: 32px 0 64px;
@@ -176,7 +151,9 @@ div {
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
     padding-bottom: 55px;
+  }
 }
+
 
 @media screen and (max-width: 720px) {
   .lead__subtitle {
@@ -186,10 +163,6 @@ div {
     width: 288px;
   }
 }
-
-
-
-
 
 .lead__figure {
   margin: 0;
@@ -211,11 +184,6 @@ div {
   }
 }
 
-
-
-
-
-
 .lead__image {
   max-width: 100%;
   min-width: 768px;
@@ -236,10 +204,6 @@ div {
     margin: 0;
   }
 }
-
-
-
-
 
 .lead__caption {
   padding-top: 8px;
@@ -268,6 +232,13 @@ div {
     padding-left: 1.6em;
   }
 }
+
+
+
+
+
+
+/* INTRO */
 
 .intro {
   margin: 0 auto;
