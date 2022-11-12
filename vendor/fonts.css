@@ -1,18 +1,18 @@
 @font-face {
-  src: url(/fonts/Inter-Regular.otf);
+  src: url(../vendor/fonts/Inter-Regular.otf);
   font-family: 'Inter';
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
-  src: url(/fonts/Inter-Bold.otf);
+  src: url(../vendor/fonts/Inter-Bold.otf);
   font-family: 'Inter';
   font-weight: bold;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
-  src: url(/fonts/Inter-Black.otf);
+  src: url(../vendor/fonts/Inter-Black.otf);
   font-family: 'Inter';
   font-weight: 900;
   font-display: swap;
