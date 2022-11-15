@@ -2,19 +2,13 @@
   margin: 0;
   padding: 0 0 25px;
   font-size: 18px;
-  line-height: 161%;
+  line-height: 163%;
+  min-width: 288px;
 }
 
 @media screen and (max-width: 975px) {
   .place__paragraph-text {
     font-size: 16px;
 
-  }
-}
-
-@media screen and (max-width: 630px) {
-  .place__paragraph-text {
-    min-width: 288px;
-    line-height: 163%;
   }
 }

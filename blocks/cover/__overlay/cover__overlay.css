@@ -1,8 +1,0 @@
-.cover__overlay {
-  display: block;
-  position: relative;
-}
-
-.cover__overlay:hover .cover__background {
-  filter: opacity(.2);
-}

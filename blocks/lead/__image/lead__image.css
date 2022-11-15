@@ -1,22 +1,11 @@
 .lead__image {
-  max-width: 100%;
-  min-width: 768px;
+  width: calc(100% - 2em);
+  min-width: 928px;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 945px) {
   .lead__image {
-    width: 768px;
-    height: 480px;
-  }
-}
-
-/* Близко расставленны брейкпоинты, но зато какая красота) */
-
-@media screen and (max-width: 785px) {
-  .lead__image {
-    height: 100%;
     width: 100%;
     min-width: 320px;
-    margin: 0;
   }
 }

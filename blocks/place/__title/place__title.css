@@ -21,6 +21,6 @@
     padding: 22px 16px 0;
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
+    max-width: 288px;
   }
 }
