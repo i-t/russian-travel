@@ -1,7 +1,6 @@
 .cover__link {
   max-width: 1184px;
-  max-height: 740px;
-  height: 62.5vw;
+  min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,6 +33,7 @@
 @media screen and (max-width: 1184px) {
   .cover__link {
     width: 100%;
+    min-height: 62.5vw;
   }
 }
 
